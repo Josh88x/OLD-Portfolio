@@ -1,0 +1,48 @@
+.projects-container {
+    /* width: 50%; */
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row; */
+    display: flex;
+    gap: 3rem;
+    /* outline: 2px solid red; */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    color: #a5f6c5;
+}
+
+.card-img {
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: 3.3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.card-description {
+    line-height: 1.6;
+    font-size: 1.65rem;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .projects-container {
+        flex-direction: column;
+    }
+}
